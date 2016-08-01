@@ -1,0 +1,23 @@
+body{
+    margin-top: 10%;
+}
+
+#title1{
+    margin-bottom: 55px;
+    font-family: "Bodoni MT";
+    font-size: 5em;
+}
+
+.control-label{
+    margin-bottom: 15px;
+    font-family: "Bodoni MT";
+    font-size: 1.5em;
+
+}
+
+.form-control{
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-family: "Bodoni MT";
+
+}
