@@ -1,9 +1,24 @@
 <body>
-{{>title}}
-
+	{{>title}}
 </body>
+
 <template name="title">
-    <div class="col-xs-12 col-md-12">
-        <h1 id="title1" class="text-center">Create Your Mad Lib below</h1>
-    </div>
+	<div class="container-fluid">
+		<div class="row">
+		    <div class="col-xs-12 col-md-12">
+		        <h1 id="title1" class="text-center">Create Your Mad Lib below</h1>
+		    </div>
+	    </div>
+	    <div class="row">
+		    <div class="col-md-offset-2 col-md-8">
+			    <form class="form-horizontal">
+				    <div class="form-group">
+				    	<label for="excalmation">Exclamation</label>
+				    	<input class="form-control" type="text" id="exclamation">
+				    	<input class="form-control" type="submit" name="submit">
+				    </div>
+			    </form>
+		    </div>
+	    </div>
+	</div>
 </template>
