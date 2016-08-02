@@ -8,6 +8,10 @@ body{
     font-size: 5em;
 }
 
+#submit{
+    margin: 10px;
+}
+
 .control-label{
     margin-bottom: 15px;
     font-family: "Bodoni MT";
